@@ -26,9 +26,6 @@
     }
   ],
   "env": {
-    "NODE_ENV": {
-      "description": "Node environment",
-      "default": "production"
-    }
+    "NODE_ENV": "production"
   }
 }
