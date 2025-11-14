@@ -9,10 +9,7 @@
     "server/index.ts": {
       "runtime": "nodejs20.x",
       "memory": 1024,
-      "maxDuration": 60,
-      "environment": {
-        "NODE_ENV": "production"
-      }
+      "maxDuration": 60
     }
   },
   "routes": [
