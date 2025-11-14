@@ -708,7 +708,7 @@ export default function Home() {
 
           {/* Made by Footer */}
           <div style={{ textAlign: 'center', padding: '8px', borderTop: '2px inset', borderTopColor: '#808080', fontSize: '11px', color: '#808080' }}>
-            Made by Your Name
+            Made by <a href="https://www.jakkrapat.com" target="_blank" rel="noopener noreferrer" style={{ color: '#000080', textDecoration: 'underline', cursor: 'pointer' }}>Guitar DSP</a>
           </div>
         </div>
       </div>
