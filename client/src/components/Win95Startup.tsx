@@ -43,7 +43,7 @@ export default function Win95Startup({ onComplete }: Win95StartupProps) {
         top: 0,
         left: 0,
         width: "100%",
-        height: "100%",
+        height: "100dvh",
         backgroundColor: "#000080",
         display: "flex",
         flexDirection: "column",
