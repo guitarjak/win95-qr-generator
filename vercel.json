@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "public": false,
+  "regions": ["sfo1"],
+  "functions": {
+    "server/index.ts": {
+      "runtime": "nodejs20.x",
+      "memory": 1024,
+      "maxDuration": 60,
+      "environment": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "routes": [
+    {
+      "src": "^/api/.*",
+      "dest": "server/index.ts"
+    },
+    {
+      "src": "^/.*",
+      "dest": "dist/public/index.html"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment",
+      "default": "production"
+    }
+  }
+}
